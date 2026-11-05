@@ -301,7 +301,7 @@ if (isset($_POST['login'])) {
     <?php }else{ ?>
         <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
     <?php } ?>
-    <div class="modal-dialog about-login-dialog">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable about-login-dialog">
         <div class="modal-content about-login-card">
             <div class="modal-header">
                 <div class="about-login-heading">
