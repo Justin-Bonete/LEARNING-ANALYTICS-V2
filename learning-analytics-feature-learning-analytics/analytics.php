@@ -36,7 +36,7 @@
 		<link rel="stylesheet" href="style/myStyle.css">
 		<link rel="stylesheet" href="style/page-refresh.css?v=2">
 		<link rel="stylesheet" href="style/app-polish.css?v=6">
-		<link rel="stylesheet" href="style/analytics-login.css?v=2">
+		<link rel="stylesheet" href="style/analytics-login.css?v=3">
 	</head>
 	<?php
 		include 'includes/modals.php';

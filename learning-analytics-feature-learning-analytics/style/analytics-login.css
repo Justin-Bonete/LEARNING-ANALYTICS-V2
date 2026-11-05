@@ -1,8 +1,8 @@
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-dialog {
+#loginModal .about-login-dialog {
     max-width: 450px;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-card {
+#loginModal .about-login-card {
     overflow: hidden;
     border: 1px solid rgba(20, 39, 56, 0.08);
     border-radius: 1.1rem;
@@ -10,7 +10,7 @@ body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-c
     box-shadow: 0 28px 80px rgba(8, 22, 34, 0.25);
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-card .modal-header {
+#loginModal .about-login-card .modal-header {
     align-items: center;
     padding: 1.25rem 1.4rem;
     border-bottom: 1px solid #e9eeeb;
@@ -19,13 +19,13 @@ body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-c
         #f7f9f6;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-heading {
+#loginModal .about-login-heading {
     display: flex;
     align-items: center;
     gap: 0.8rem;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-brand {
+#loginModal .about-login-brand {
     display: flex;
     width: 45px;
     height: 45px;
@@ -36,13 +36,13 @@ body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-b
     background: #fff;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-brand img {
+#loginModal .about-login-brand img {
     width: 35px;
     height: 35px;
     object-fit: contain;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-heading small {
+#loginModal .about-login-heading small {
     display: block;
     color: #75857e;
     font-size: 0.57rem;
@@ -50,14 +50,14 @@ body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-h
     letter-spacing: 0.14em;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-heading .modal-title {
+#loginModal .about-login-heading .modal-title {
     margin-top: 0.15rem;
     color: #142738;
     font-size: 1.2rem;
     font-weight: 700;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-close {
+#loginModal .about-login-close {
     width: 32px;
     height: 32px;
     padding: 0.55rem;
@@ -67,22 +67,22 @@ body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-c
     opacity: 0.8;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-card .modal-body {
+#loginModal .about-login-card .modal-body {
     padding: 1.35rem 1.4rem 1.4rem;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-intro {
+#loginModal .about-login-intro {
     margin: 0 0 1.25rem;
     color: #70808c;
     font-size: 0.87rem;
     line-height: 1.55;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-field {
+#loginModal .about-login-field {
     margin-bottom: 1rem;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-field label {
+#loginModal .about-login-field label {
     display: block;
     margin-bottom: 0.4rem;
     color: #142738;
@@ -90,11 +90,11 @@ body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-f
     font-weight: 700;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-field .input-group {
+#loginModal .about-login-field .input-group {
     flex-wrap: nowrap;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-field .input-group-text {
+#loginModal .about-login-field .input-group-text {
     min-width: 43px;
     border: 1px solid #dfe6e0;
     border-right: 0;
@@ -103,7 +103,7 @@ body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-f
     color: #81918b;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-field .form-control {
+#loginModal .about-login-field .form-control {
     min-height: 46px;
     padding: 0.7rem 0.75rem;
     border: 1px solid #dfe6e0;
@@ -113,21 +113,21 @@ body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-f
     font-size: 0.88rem;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-field .form-control:focus {
+#loginModal .about-login-field .form-control:focus {
     border-color: #7aada0;
     box-shadow: 0 0 0 0.2rem rgba(77, 153, 149, 0.12);
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-field .input-group:focus-within .input-group-text {
+#loginModal .about-login-field .input-group:focus-within .input-group-text {
     border-color: #7aada0;
     color: #4d9995;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-submit {
+#loginModal .about-login-submit {
     margin-top: 1.35rem;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-submit .btn {
+#loginModal .about-login-submit .btn {
     display: flex;
     min-height: 47px;
     align-items: center;
@@ -141,19 +141,19 @@ body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-s
     transition: background-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-submit .btn:hover {
+#loginModal .about-login-submit .btn:hover {
     transform: translateY(-1px);
     background: #24495e;
     box-shadow: 0 8px 18px rgba(20, 39, 56, 0.17);
     color: #fff;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-submit .btn i {
+#loginModal .about-login-submit .btn i {
     margin-left: 0.55rem;
     color: #a6d2b0;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-help {
+#loginModal .about-login-help {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,21 +163,21 @@ body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-h
     font-size: 0.75rem;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-help > i {
+#loginModal .about-login-help > i {
     color: #4d9995;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-help a {
+#loginModal .about-login-help a {
     color: #397c75;
     font-weight: 700;
     text-decoration: none;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-help a:hover {
+#loginModal .about-login-help a:hover {
     text-decoration: underline;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-divider {
+#loginModal .about-login-divider {
     display: flex;
     align-items: center;
     gap: 0.8rem;
@@ -188,15 +188,15 @@ body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-d
     letter-spacing: 0.13em;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-divider::before,
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-divider::after {
+#loginModal .about-login-divider::before,
+#loginModal .about-login-divider::after {
     height: 1px;
     flex: 1;
     background: #e9eeeb;
     content: "";
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-supervisor-link {
+#loginModal .about-supervisor-link {
     display: flex;
     align-items: center;
     gap: 0.75rem;
@@ -209,14 +209,14 @@ body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-supervi
     transition: background-color 180ms ease, border-color 180ms ease;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-supervisor-link:hover {
+#loginModal .about-supervisor-link:hover {
     border-color: #cedacf;
     background: #f0f4ee;
     color: #142738;
     text-decoration: none;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-supervisor-link > i:first-child {
+#loginModal .about-supervisor-link > i:first-child {
     display: flex;
     width: 36px;
     height: 36px;
@@ -227,31 +227,31 @@ body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-supervi
     color: #45728e;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-supervisor-link span {
+#loginModal .about-supervisor-link span {
     flex: 1;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-supervisor-link strong,
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-supervisor-link small {
+#loginModal .about-supervisor-link strong,
+#loginModal .about-supervisor-link small {
     display: block;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-supervisor-link strong {
+#loginModal .about-supervisor-link strong {
     font-size: 0.78rem;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-supervisor-link small {
+#loginModal .about-supervisor-link small {
     margin-top: 0.15rem;
     color: #819096;
     font-size: 0.64rem;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-supervisor-link > i:last-child {
+#loginModal .about-supervisor-link > i:last-child {
     color: #829299;
     font-size: 0.7rem;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-error {
+#loginModal .about-login-error {
     display: flex;
     align-items: center;
     gap: 0.55rem;
@@ -264,19 +264,19 @@ body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-e
     font-size: 0.82rem;
 }
 
-body:is(.analytics-page, .faq-page, .contact-page, .support-page) .modal-backdrop.show {
+body:has(#loginModal.show) .modal-backdrop.show {
     background-color: #101c27;
     opacity: 0.66;
     backdrop-filter: blur(3px);
 }
 
 @media (max-width: 575.98px) {
-    body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-dialog {
+    #loginModal .about-login-dialog {
         margin: 0.5rem;
     }
 
-    body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-card .modal-header,
-    body:is(.analytics-page, .faq-page, .contact-page, .support-page) .about-login-card .modal-body {
+    #loginModal .about-login-card .modal-header,
+    #loginModal .about-login-card .modal-body {
         padding-right: 1rem;
         padding-left: 1rem;
     }
